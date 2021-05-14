@@ -1,0 +1,124 @@
+body {
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+#display-message {
+    height: 10%;
+    width: 100%;
+
+}
+#display-header {
+    background-color: #128c7e;
+    position: fixed ;
+    width: 100%;
+    height: 80px;
+    right:0.2em;
+    top: 0;
+    z-index: 3;
+}
+#display-footer {
+    position: fixed;
+    width: 83%;
+    height:50px;
+    bottom: 0;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    clear: both;
+}
+button {
+    position: absolute;
+    left: 102%;
+    bottom: 1.8%;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #128c7e;
+    border: none;
+    z-index: 1;
+}
+
+#emoji-pic {
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 3%;
+    cursor: pointer;
+}
+
+#emoji-pic img {
+    border-radius: 100px;
+}
+
+#bot-photo img {
+    border-radius: 100px;
+}
+
+#bot-photo {
+    margin: 10px 20px 15px 20px;
+    float: left;
+    position: fixed;
+}
+
+#display-header p {
+    font-family: Helvetica;
+    margin-left: 75px;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    position: fixed;
+}
+
+#input-message {
+    clear: both;
+    font-family: Helvetica;
+    margin-left: 11%;
+    margin-top: 3%;
+    font-size: 14pt;
+    width: 75%;
+    border: none;
+    
+}
+
+button img {
+    position: relative;
+    right: 2px;
+    cursor: pointer;
+
+}
+
+#your-message {
+    float: right;
+    font-family: Helvetica;
+    position: relative;
+    margin-top: 110px;
+    font-size: 14pt;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3px 3px 3px 5px;
+    z-index: 2;
+    margin-right: 15px;
+    background-color: white;
+}
+
+#my-message {
+    font-family: Helvetica;
+    position: relative;
+    z-index: 2;
+    font-size: 14pt;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3px 3px 3px 5px;
+    text-align: left;
+    float: left;
+    max-width: 50%;
+    margin-top: 150px;
+    background-color: white;
+}
+
+#your-message img {
+    z-index: 4;
+}
+
+#my-message img {
+    z-index: 4;
+}
